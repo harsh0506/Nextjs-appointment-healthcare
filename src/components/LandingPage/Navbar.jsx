@@ -22,7 +22,7 @@ export default function Navigatiom() {
     return (
         <div id="app">
             <div class="relative isolate overflow-hidden bg-gray-900 py-16 sm:py-24 lg:py-3">
-                <div class="bg-gray-900">
+                <div class="bg-grey-900">
                     <header class="absolute inset-x-0 top-0 z-50">
                         <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
                             <div class="flex lg:flex-1">
@@ -61,9 +61,11 @@ export default function Navigatiom() {
                         </div>
                         <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
                             <div class="text-center">
-                                <h1 class="text-4xl font-bold tracking-tight text-white-900 sm:text-6xl">Data to enrich your online business</h1>
-                                <p class="mt-6 text-lg leading-8 text-gray-600">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
-                                <div class="mt-10 flex items-center justify-center gap-x-6"><a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a><a href="#" class="text-sm font-semibold leading-6 text-white-900">Learn more <span aria-hidden="true">→</span></a></div>
+                                <h1 class="text-4xl font-bold tracking-tight text-white-900 sm:text-6xl">"Say goodbye to waiting rooms, say hello to our platform"</h1>
+                                <p class="mt-6 text-lg leading-8 text-gray-600">
+                                    Transform your healthcare journey. Book appointments, consult with doctors, and order medicine online - all in one place. Join us today and experience hassle-free healthcare management at your fingertips.
+                                </p>
+                                <div class="mt-10 flex items-center justify-center gap-x-6"><a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">book an Appointment</a><a href="#" class="text-sm font-semibold leading-6 text-white-900">Join as Doctor <span aria-hidden="true">→</span></a></div>
                             </div>
                         </div>
                         <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">
