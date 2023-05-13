@@ -1,6 +1,7 @@
 "use client";
 
-import React from "react";
+import { useRouter } from "next/navigation";
+import React, { useReducer } from "react";
 
 export default function Example() {
 
@@ -61,6 +62,8 @@ export default function Example() {
     const [FirsttimeConsultation, setFirsttimeConsultation] = React.useState("")
     const [RoutineConsultation, setRoutineConsultation] = React.useState("")
 
+    const Router = useRouter()
+
     function OnSubmit() {
         const Object = {
             email: Email, password: Password, name: Username, phoneNumber: PhoneNumber,
@@ -68,10 +71,11 @@ export default function Example() {
             rates: {
                 newPatient: FirsttimeConsultation, routinePatient: RoutineConsultation
             }, specialities: choosedFileds, education: ChoosedEduction
-
         }
 
         console.log(Object)
+
+        Router.push("/Auth/Schedule")
     }
 
 
